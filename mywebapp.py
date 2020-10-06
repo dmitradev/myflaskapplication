@@ -6,7 +6,7 @@ app = flask.Flask("mywebapp")
 
 @app.route("/")
 def indexpage():
-    return "Wel Come"
+    return "Hello World"
 
 
 if __name__ == "__main__":
